@@ -1,4 +1,4 @@
-# mapa-esoft-unicesumar
+# ESOFT | Programação Front End
 
 Em nosso material de estudo sobre Programação Front-End, exploramos como o desenvolvimento de websites modernos depende da integração harmoniosa de diferentes linguagens e tecnologias. A combinação de HTML, CSS e JavaScript forma a base do desenvolvimento Front-End, permitindo a criação de interfaces interativas, responsivas e visualmente atraentes. Cada uma dessas tecnologias desempenha um papel específico: o HTML estrutura o conteúdo, o CSS estiliza a aparência, e o JavaScript adiciona interatividade e comportamentos dinâmicos às páginas web.
 
