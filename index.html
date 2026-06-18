@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Rota Custom: concessionária de motos custom com catálogo, história da marca e formulário de contato responsivo."
+    />
+    <meta
+      name="keywords"
+      content="motos custom, concessionária, catálogo de motos, motos clássicas, contato"
+    />
+    <meta name="author" content="Rota Custom" />
+    <meta
+      property="og:title"
+      content="Rota Custom | Concessionária de motos custom"
+    />
+    <meta
+      property="og:description"
+      content="Conheça modelos custom, destaque da marca e entre em contato com a Rota Custom."
+    />
+    <meta property="og:type" content="website" />
+    <title>Rota Custom | Concessionária de motos custom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Rota Custom, página inicial"
+        >
+          <img
+            src="img/logo.svg"
+            alt="Logotipo Rota Custom"
+            class="brand-logo"
+          />
+          <span>Rota Custom</span>
+        </a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-principal"
+          data-menu-button
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="nav-principal" data-nav>
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="motos.html">Motos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Performance, estilo e presença</p>
+            <h1>Motos custom para quem quer rodar com identidade.</h1>
+            <p class="lead">
+              Uma vitrine responsiva com catálogo, história da marca e contato
+              direto para atender apaixonados por duas rodas.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="motos.html" data-scroll
+                >Ver catálogo</a
+              >
+              <a class="button button-secondary" href="contato.html"
+                >Falar com a equipe</a
+              >
+            </div>
+          </div>
+          <div class="hero-media card card-media">
+            <img
+              src="img/hero-moto.svg"
+              alt="Ilustração de uma moto custom em destaque"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Diferenciais</p>
+            <h2>Experiência digital pensada para a disciplina</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="card feature-card">
+              <h3>Layout responsivo</h3>
+              <p>
+                Estrutura adaptada para celular, tablet e desktop com uso de
+                grid, flexbox e pontos de quebra.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <h3>SEO básico</h3>
+              <p>
+                Metadados, semântica, títulos organizados e textos alternativos
+                ajudam na indexação e acessibilidade.
+              </p>
+            </article>
+            <article class="card feature-card">
+              <h3>Interatividade</h3>
+              <p>
+                Menu mobile, rolagem suave, destaques no catálogo e validação de
+                formulário melhoram a experiência.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent">
+        <div class="container cta-banner card">
+          <div>
+            <p class="eyebrow">Catálogo simplificado</p>
+            <h2>Conheça modelos custom selecionados para a apresentação.</h2>
+            <p>
+              O catálogo reúne motos com visual marcante e informações resumidas
+              para facilitar a navegação do usuário.
+            </p>
+          </div>
+          <a class="button button-primary" href="motos.html">Explorar motos</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>
+          &copy; <span data-year></span> Rota Custom. Todos os direitos
+          reservados.
+        </p>
+        <p>Projeto acadêmico de Programação Front-End.</p>
+      </div>
+    </footer>
+  </body>
+</html>

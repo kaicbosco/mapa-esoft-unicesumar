@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Classic Route</title>
+  <desc id="desc">Moto custom de visual retrô com tanque arredondado, cromados e postura clássica.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181d27"/>
+      <stop offset="100%" stop-color="#10131a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e63a2e"/>
+      <stop offset="100%" stop-color="#ff6b57"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="30" fill="url(#bg)"/>
+  <ellipse cx="400" cy="402" rx="238" ry="38" fill="#000" opacity="0.28"/>
+  <circle cx="224" cy="348" r="78" fill="#161b24" stroke="#d8dee9" stroke-width="12"/>
+  <circle cx="224" cy="348" r="40" fill="none" stroke="#7f8a99" stroke-width="7"/>
+  <circle cx="560" cy="348" r="78" fill="#161b24" stroke="#d8dee9" stroke-width="12"/>
+  <circle cx="560" cy="348" r="40" fill="none" stroke="#7f8a99" stroke-width="7"/>
+
+  <path d="M206 324h70l34-66h88l52 48h102" fill="none" stroke="#edf2f7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M374 258h96l48 46" fill="none" stroke="#edf2f7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  <path d="M326 212h116l46 90" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 186h86l26 36" fill="none" stroke="#edf2f7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M504 150h114c18 0 32 14 32 32v14h-120z" fill="#212636"/>
+  <path d="M536 166h52" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M608 208h76c18 0 34 16 34 34v18" fill="none" stroke="#edf2f7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M394 304h126" stroke="#6d7786" stroke-width="8" stroke-linecap="round"/>
+  <path d="M332 246h38" stroke="#6d7786" stroke-width="8" stroke-linecap="round"/>
+  <path d="M484 316h52" stroke="#6d7786" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="34" y="70" fill="#f3f6fb" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Classic Route</text>
+  <text x="34" y="104" fill="#b3bcccb3" font-family="Inter, Arial, sans-serif" font-size="18">Retro custom cruiser</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Urban Rebel</title>
+  <desc id="desc">Moto custom compacta para uso urbano, com tanque curto, quadro leve e postura agressiva.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181d27"/>
+      <stop offset="100%" stop-color="#10131a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e63a2e"/>
+      <stop offset="100%" stop-color="#ff6b57"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="30" fill="url(#bg)"/>
+  <ellipse cx="400" cy="402" rx="230" ry="38" fill="#000" opacity="0.28"/>
+  <circle cx="226" cy="348" r="78" fill="#161b24" stroke="#d8dee9" stroke-width="12"/>
+  <circle cx="226" cy="348" r="40" fill="none" stroke="#7f8a99" stroke-width="7"/>
+  <circle cx="552" cy="348" r="78" fill="#161b24" stroke="#d8dee9" stroke-width="12"/>
+  <circle cx="552" cy="348" r="40" fill="none" stroke="#7f8a99" stroke-width="7"/>
+
+  <path d="M212 324h58l26-58h80l46 42h92" fill="none" stroke="#edf2f7" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M352 266h86l48 48" fill="none" stroke="#edf2f7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  <path d="M310 218h98l42 84" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M448 194h78l22 34" fill="none" stroke="#edf2f7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 158h106c16 0 30 14 30 30v14h-110z" fill="#212636"/>
+  <path d="M508 172h46" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M588 212h60c18 0 34 16 34 34v18" fill="none" stroke="#edf2f7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M398 304h120" stroke="#6d7786" stroke-width="8" stroke-linecap="round"/>
+  <path d="M334 250h36" stroke="#6d7786" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="34" y="70" fill="#f3f6fb" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Urban Rebel</text>
+  <text x="34" y="104" fill="#b3bccb" font-family="Inter, Arial, sans-serif" font-size="18">Compact city custom</text>
+</svg>
