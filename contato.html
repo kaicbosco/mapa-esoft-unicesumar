@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Entre em contato com a Rota Custom por meio de formulário validado em JavaScript."
+    />
+    <title>Rota Custom | Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Rota Custom, página inicial"
+        >
+          <img
+            src="img/logo.svg"
+            alt="Logotipo Rota Custom"
+            class="brand-logo"
+          />
+          <span>Rota Custom</span>
+        </a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-principal"
+          data-menu-button
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="nav-principal" data-nav>
+          <a href="index.html">Home</a>
+          <a href="motos.html">Motos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html" aria-current="page">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="section page-header">
+        <div class="container">
+          <p class="eyebrow">Contato</p>
+          <h1>Fale com a nossa equipe</h1>
+          <p class="lead">
+            Formulário com validação em JavaScript e retorno visual para
+            demonstrar comportamento dinâmico.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <form class="card contact-form" id="contactForm" novalidate>
+            <div class="field-group">
+              <label for="name">Nome completo</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+                minlength="3"
+                placeholder="Seu nome"
+              />
+            </div>
+            <div class="field-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+                placeholder="voce@exemplo.com"
+              />
+            </div>
+            <div class="field-group">
+              <label for="phone">Telefone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                autocomplete="tel"
+                placeholder="(00) 00000-0000"
+              />
+            </div>
+            <div class="field-group">
+              <label for="subject">Assunto</label>
+              <select id="subject" name="subject" required>
+                <option value="">Selecione</option>
+                <option>Informações sobre motos</option>
+                <option>Agendar visita</option>
+                <option>Suporte comercial</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                minlength="10"
+                placeholder="Escreva sua mensagem"
+              ></textarea>
+            </div>
+            <label class="checkbox-field">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <span>Concordo em ser contatado pela equipe da Rota Custom.</span>
+            </label>
+            <button class="button button-primary" type="submit">
+              Enviar mensagem
+            </button>
+            <p
+              class="form-message"
+              id="formMessage"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+
+          <aside class="card contact-info">
+            <h2>Informações</h2>
+            <ul>
+              <li><strong>Telefone:</strong> (11) 4000-0000</li>
+              <li><strong>E-mail:</strong> contato@rotacustom.com</li>
+              <li><strong>Horário:</strong> seg. a sex. das 9h às 18h</li>
+            </ul>
+            <div class="map-box" aria-label="Mapa ilustrativo da localização">
+              <p>Localização ilustrativa para o projeto acadêmico.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>
+          &copy; <span data-year></span> Rota Custom. Todos os direitos
+          reservados.
+        </p>
+        <p>Validação de formulário aplicada com JavaScript.</p>
+      </div>
+    </footer>
+  </body>
+</html>

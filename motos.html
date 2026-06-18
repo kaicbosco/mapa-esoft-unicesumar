@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Catálogo de motos custom da Rota Custom com modelos selecionados e detalhes interativos."
+    />
+    <title>Rota Custom | Motos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Rota Custom, página inicial"
+        >
+          <img
+            src="img/logo.svg"
+            alt="Logotipo Rota Custom"
+            class="brand-logo"
+          />
+          <span>Rota Custom</span>
+        </a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-principal"
+          data-menu-button
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="nav-principal" data-nav>
+          <a href="index.html">Home</a>
+          <a href="motos.html" aria-current="page">Motos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="section page-header">
+        <div class="container">
+          <p class="eyebrow">Catálogo</p>
+          <h1>Modelos em destaque</h1>
+          <p class="lead">
+            Cards com foco em imagem, descrição e preço estimado, reforçando a
+            organização visual do conteúdo.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container card-grid">
+          <article class="card moto-card">
+            <img src="img/moto-street.svg" alt="Moto custom Street Black" />
+            <div class="card-body">
+              <h2>Street Black</h2>
+              <p class="price">A partir de R$ 42.900</p>
+              <p>
+                Modelo urbano com posição de pilotagem confortável e acabamento
+                escurecido.
+              </p>
+              <button
+                class="button button-secondary button-small"
+                type="button"
+                data-toggle-details
+                aria-expanded="false"
+              >
+                Ver detalhes
+              </button>
+              <div class="card-details" hidden>
+                <ul>
+                  <li>Motor 750cc</li>
+                  <li>Tanque customizado</li>
+                  <li>Painel digital compacto</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="card moto-card">
+            <img src="img/moto-custom.svg" alt="Moto custom Iron Road" />
+            <div class="card-body">
+              <h2>Iron Road</h2>
+              <p class="price">A partir de R$ 58.500</p>
+              <p>
+                Visual robusto com presença marcante e proposta para longas
+                distâncias.
+              </p>
+              <button
+                class="button button-secondary button-small"
+                type="button"
+                data-toggle-details
+                aria-expanded="false"
+              >
+                Ver detalhes
+              </button>
+              <div class="card-details" hidden>
+                <ul>
+                  <li>Suspensão reforçada</li>
+                  <li>Escape esportivo</li>
+                  <li>Assento premium</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="card moto-card">
+            <img src="img/moto-classic.svg" alt="Moto custom Classic Route" />
+            <div class="card-body">
+              <h2>Classic Route</h2>
+              <p class="price">A partir de R$ 51.200</p>
+              <p>
+                Estilo retrô com detalhes cromados e ergonomia para o uso
+                cotidiano.
+              </p>
+              <button
+                class="button button-secondary button-small"
+                type="button"
+                data-toggle-details
+                aria-expanded="false"
+              >
+                Ver detalhes
+              </button>
+              <div class="card-details" hidden>
+                <ul>
+                  <li>Design retrô</li>
+                  <li>Iluminação full LED</li>
+                  <li>Assinatura cromada</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="card moto-card">
+            <img src="img/moto-urban.svg" alt="Moto custom Urban Rebel" />
+            <div class="card-body">
+              <h2>Urban Rebel</h2>
+              <p class="price">A partir de R$ 46.700</p>
+              <p>
+                Versão compacta para trânsito urbano e personalização com
+                acabamento premium.
+              </p>
+              <button
+                class="button button-secondary button-small"
+                type="button"
+                data-toggle-details
+                aria-expanded="false"
+              >
+                Ver detalhes
+              </button>
+              <div class="card-details" hidden>
+                <ul>
+                  <li>Chassi leve</li>
+                  <li>Freio ABS</li>
+                  <li>Banco bipartido</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>
+          &copy; <span data-year></span> Rota Custom. Todos os direitos
+          reservados.
+        </p>
+        <p><a href="contato.html">Solicite atendimento</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
